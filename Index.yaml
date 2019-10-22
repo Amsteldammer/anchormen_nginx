@@ -1,19 +1,27 @@
 apiVersion: v1
-appVersion: 1.16.0
-description: Chart for the nginx server
-engine: gotpl
-home: http://www.nginx.org
-icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
-keywords:
-- nginx
-- http
-- web
-- www
-- reverse proxy
-maintainers:
-- email: containers@bitnami.com
-  name: Bitnami
-name: nginx
-sources:
-- https://github.com/bitnami/bitnami-docker-nginx
-version: 4.3.9
+entries:
+  nginx:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2019-10-22T17:07:31.7836179+02:00"
+    description: Chart for the nginx server
+    digest: fc1af45c3195a8163e4a0030ce0221da629bc0d7213cfe815926567618bdc1bc
+    engine: gotpl
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    urls:
+    - nginx-4.3.9.tgz
+    version: 4.3.9
+generated: "2019-10-22T17:07:31.7816224+02:00"
